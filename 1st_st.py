@@ -8,20 +8,6 @@ st.header("INDIAN RAILWAYS")
 #Caption
 st.caption("Safety | Security | Punctuality")
 
-#Background Image
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url("OIP.jpg")
-    }
-   .sidebar .sidebar-content {
-        background: url("OIP.jpg")
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 #Baloon Display
@@ -42,6 +28,22 @@ merged = pd.merge(df,df1, how="inner", on=["Train_No"])
 st.dataframe(merged, use_container_width=True)
 
 st.sidebar.header('User Input Features')
+
+#Background Image
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("OIP.jpg")
+    }
+   .sidebar .sidebar-content {
+        background: url("OIP.jpg")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 
 
