@@ -16,11 +16,11 @@ st.balloons()
 
 #read file
 import pandas as pd
-url=('https://github.com/Vinotha27/Small_streamlit/blob/main/train_schedule.csv')
-df = pd.read_csv(url)
-print(df.head(5))
-
-
+import requests
+url = "https://github.com/Vinotha27/Small_streamlit/blob/main/train_schedule.csv"
+s = requests.get(url).content
+c = pd.read_csv(s)
+print(c.head(5))
 
 
 
