@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(
      page_title="Environment Data Atlas",
      page_icon="🧊",
-     layout="wide",
+     #layout="wide",
      #initial_sidebar_state="expanded",
      menu_items={
          'Get Help': 'https://developers.snowflake.com',
