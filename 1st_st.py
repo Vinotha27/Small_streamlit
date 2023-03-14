@@ -18,22 +18,16 @@ st.balloons()
 #read file
 import pandas as pd
 url = 'https://raw.githubusercontent.com/Vinotha27/Small_streamlit/main/train_schedule.csv'
+url1='https://raw.githubusercontent.com/Vinotha27/Small_streamlit/main/train_info.csv'
 df = pd.read_csv(url, index_col=0)
+df1=pd.read_csv(url1, index_col=0)
 df.dropna(inplace=True)
+df1.dropna(inplace=True)
 st.dataframe(df, use_container_width=True)
+st.dataframe(df1, use_container_width=True)
 
 # --- STREAMLIT SELECTION
-department = df['Station_name'].unique().tolist()
-ages = df['Departure_time'].unique().tolist()
 
-age_selection = st.slider('Station_name:',
-                        min_value= min(ages),
-                        max_value= max(ages),
-                        value=(min(ages),max(ages)))
-
-department_selection = st.multiselect('Departure_time:',
-                                    department,
-                                    default=department)
 
 
 
