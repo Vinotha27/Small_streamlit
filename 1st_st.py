@@ -17,6 +17,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
+st.image("OIP.jpg")
+
 #Heading
 st.header("INDIAN RAILWAYS")
 
