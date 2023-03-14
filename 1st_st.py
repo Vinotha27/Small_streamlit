@@ -18,7 +18,7 @@ st.markdown(
 )
 
 
-st.image("OIP.jpg")
+st.image("https://wallpapercave.com/wp/wp6222650.jpg")
 
 #Heading
 st.header("INDIAN RAILWAYS")
