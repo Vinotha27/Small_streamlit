@@ -16,7 +16,7 @@ st.balloons()
 
 #read file
 url="https://github.com/Vinotha27/Small_streamlit/blob/main/train_info.csv"
-df = pd.read_csv(url,index_col=0)
+df = pd.read_csv(url)
 print(df.head(5))
 
 
