@@ -2,6 +2,21 @@
 import streamlit as st
 import pandas as pd
 
+#Background Image
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("OIP.jpg")
+    }
+   .sidebar .sidebar-content {
+        background: url("OIP.jpg")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 #Heading
 st.header("INDIAN RAILWAYS")
 
@@ -29,20 +44,7 @@ st.dataframe(merged, use_container_width=True)
 
 st.sidebar.header('User Input Features')
 
-#Background Image
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url("OIP.jpg")
-    }
-   .sidebar .sidebar-content {
-        background: url("OIP.jpg")
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 
 
 
