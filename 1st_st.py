@@ -23,8 +23,12 @@ df = pd.read_csv(url, index_col=0)
 df1=pd.read_csv(url1, index_col=0)
 df.dropna(inplace=True)
 df1.dropna(inplace=True)
-st.dataframe(df, use_container_width=True)
-st.dataframe(df1, use_container_width=True)
+#st.dataframe(df, use_container_width=True)
+#st.dataframe(df1, use_container_width=True)
+merged = pd.merge(df, df1)
+merged.head()
+st.dataframe(merged, use_container_width=True)
+
 
 # --- STREAMLIT SELECTION
 
