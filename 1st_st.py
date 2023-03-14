@@ -28,9 +28,7 @@ df1.dropna(inplace=True)
 merged = pd.merge(df,df1, how="inner", on=["Train_No"])
 st.dataframe(merged, use_container_width=True)
 
-# Sidebar - Sector selection
-sorted_sector_unique = sorted( df['Train_Name'].unique() )
-selected_sector = st.sidebar.multiselect('Sector', sorted_sector_unique, sorted_sector_unique)
+st.sidebar.header('User Input Features')
 
 
 
