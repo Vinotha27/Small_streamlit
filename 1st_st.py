@@ -15,7 +15,7 @@ st.balloons()
 
 #read file
 import pandas as pd
-url=("https://github.com/Vinotha27/Small_streamlit/blob/main/train_info.csv")
+url=("https://raw.githubusercontent.com/Vinotha27/Small_streamlit/main/train_info.csv")
 df = pd.read_csv(url)
 print(df.head(5))
 
