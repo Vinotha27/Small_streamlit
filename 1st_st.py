@@ -49,6 +49,21 @@ st.dataframe(merged, use_container_width=True)
 
 st.sidebar.header('User Input Features')
 
+# Sidebar layout with input and output definitions ----
+  sidebarLayout(
+    
+    # Sidebar panel for inputs ----
+    sidebarPanel(
+      
+      # Input: Slider for the number of bins ----
+      sliderInput(inputId = "Train_Name",
+                  label = "Number of Trains:",
+                  min = 1,
+                  max = 50,
+                  value = 30)
+      
+    )
+
 
 
 
