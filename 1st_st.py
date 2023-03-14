@@ -1,11 +1,6 @@
 #import Packages
 import streamlit as st
 import pandas as pd
-import plotly.express as px
-
-
-#page Title
-st.set_page_config(page_title='Indian Railways.com')
 
 #Heading
 st.header("INDIAN RAILWAYS")
