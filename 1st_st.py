@@ -48,22 +48,7 @@ merged = pd.merge(df,df1, how="inner", on=["Train_No"])
 st.dataframe(merged, use_container_width=True)
 
 st.sidebar.header('User Input Features')
-
-# Sidebar layout with input and output definitions ----
-  sidebarLayout(
-    
-    # Sidebar panel for inputs ----
-    sidebarPanel(
-      
-      # Input: Slider for the number of bins ----
-      sliderInput(inputId = "Train_Name",
-                  label = "Number of Trains:",
-                  min = 1,
-                  max = 50,
-                  value = 30)
-      
-    )
-
+selected_Train = st.sidebar.selectbox('Train_No', list(reversed(range(107,99908))))
 
 
 
