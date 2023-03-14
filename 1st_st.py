@@ -9,7 +9,7 @@ st.header("INDIAN RAILWAYS")
 st.caption("Safety | Security | Punctuality")
 
 #Background Image
-
+def set_bg_hack_url():
 st.markdown(
     """
     <style>
@@ -23,6 +23,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+set_bg_hack_url()
 
 #Baloon Display
 st.balloons()
