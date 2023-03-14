@@ -2,6 +2,13 @@
 import streamlit as st
 import pandas as pd
 
+
+#Heading
+st.header("INDIAN RAILWAYS")
+
+#Caption
+st.caption("Safety | Security | Punctuality")
+
 #Background Image
 st.markdown(
     """
@@ -20,11 +27,6 @@ st.markdown(
 
 st.image("https://wallpapercave.com/wp/wp6222650.jpg")
 
-#Heading
-st.header("INDIAN RAILWAYS")
-
-#Caption
-st.caption("Safety | Security | Punctuality")
 
 
 
