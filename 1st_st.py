@@ -13,10 +13,10 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url(""https://www.wallpapertip.com/wmimgs/155-1554570_indian-train-images-hd.jpg"")
+        background: url("OIP.jpg")
     }
    .sidebar .sidebar-content {
-        background: url(""https://www.wallpapertip.com/wmimgs/155-1554570_indian-train-images-hd.jpg"")
+        background: url("OIP.jpg")
     }
     </style>
     """,
