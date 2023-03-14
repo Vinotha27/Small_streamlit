@@ -21,6 +21,10 @@ df = pd.read_csv(url, index_col=0)
 st.dataframe(df, use_container_width=True)
 
 
+#side button
+st.select_slider('Pick a Birth', ['1A', '2A', '3A','Sleeper'])
+
+
 
 
 
