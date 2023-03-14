@@ -1,6 +1,7 @@
 #import Packages
 import streamlit as st
 
+
 st.set_page_config(
      page_title="Environment Data Atlas",
      page_icon="🧊",
@@ -11,6 +12,8 @@ st.set_page_config(
          'About': "This is an *extremely* cool app powered by Snowpark for Python, Streamlit, and Snowflake Data Marketplace"
      }
 )
+
+st.header("INDIAN RAILWAYS")
 
 #Caption
 st.caption("Safety | Security | Punctuality")
