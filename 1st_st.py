@@ -22,7 +22,7 @@ st.dataframe(df, use_container_width=True)
 
 
 #side button
-st.sidebar('Pick a Birth', ['1A', '2A', '3A','Sleeper'])
+st.sidebar()
 
 
 
