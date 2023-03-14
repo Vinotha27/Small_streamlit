@@ -8,17 +8,7 @@ st.header("INDIAN RAILWAYS")
 #Caption
 st.caption("Safety | Security | Punctuality")
 
-"""Image
-st.image("https://www.wallpapertip.com/wmimgs/155-1554570_indian-train-images-hd.jpg.jpg")
-page_bg_img = 
-<style>
-body {
-background-image: url("https://www.wallpapertip.com/wmimgs/155-1554570_indian-train-images-hd.jpg.jpg");
-background-size: cover;
-}
-</style>
-
-st.markdown(page_bg_img, unsafe_allow_html=True) """
+#Background Image
 
 st.markdown(
     """
