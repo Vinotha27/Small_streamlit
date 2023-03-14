@@ -1,5 +1,5 @@
 import streamlit as st
 import pandas as pd
-st.header("Hi")
+st.image("Indian Railway Image.jpg")
 
 
