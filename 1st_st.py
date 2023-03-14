@@ -20,10 +20,10 @@ st.balloons()
 
 
 #read file
----import pandas as pd
----url=('https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv')
----df = pd.read_csv(url)
----print(df.head(5))
+#import pandas as pd
+#url=('https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv')
+#df = pd.read_csv(url)
+#print(df.head(5))
 
 
 
