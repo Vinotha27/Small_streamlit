@@ -9,18 +9,15 @@ st.header("INDIAN RAILWAYS")
 st.caption("Safety | Security | Punctuality")
 
 #Background Image
-def set_background(png_file):
-bin_str = get_base64(png_file)
 page_bg_img = '''
 <style>
-.stApp {
-background-image: url("https://wallpapercave.com/wp/wp4740876.jpg,%s");
+body {
+background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=dsNh1%2bqc&id=6D1A6F8656D62782B7192FB614D12D45B8447620&thid=OIP.dsNh1-qc5xGy5fWzvIAV7QHaFj&mediaurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp5521998.jpg&exph=768&expw=1024&q=Indian+Railway&simid=608048304503276004&FORM=IRPRST&ck=6D8B1FBFDAFA84466F857157965CA60F&selectedIndex=8");
 background-size: cover;
 }
 </style>
-''' % bin_str
+'''
 st.markdown(page_bg_img, unsafe_allow_html=True)
-set_background(url)
     
 
 #Baloon Display
