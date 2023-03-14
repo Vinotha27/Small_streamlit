@@ -18,7 +18,7 @@ st.balloons()
 import pandas as pd
 url='https://raw.githubusercontent.com/Vinotha27/Small_streamlit/blob/main/train_schedule.csv'
 df = pd.read_csv(url, index_col=0)
-print(df.head(5))
+st.dataframe(df, use_container_width=True)
 
 
 
