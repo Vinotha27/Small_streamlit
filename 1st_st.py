@@ -1,9 +1,8 @@
 #import Packages
 import streamlit as st
 import pandas as pd
-import streamlit as st
 import plotly.express as px
-from PIL import Image
+
 
 #page Title
 st.set_page_config(page_title='Indian Railways.com')
