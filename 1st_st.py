@@ -48,7 +48,7 @@ merged = pd.merge(df,df1, how="inner", on=["Train_No"])
 st.dataframe(merged, use_container_width=True)
 
 st.sidebar.header('User Input Features')
-selected_Train = st.sidebar.selectbox('Train_No', list(reversed(range(107,99908))))
+selected_Train = st.sidebar.selectbox('Train_No', list(range(107,99908))
 
 
 
