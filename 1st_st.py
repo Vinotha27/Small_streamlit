@@ -53,7 +53,7 @@ a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
 if a=='yes':
     print(st.write("Thanks for choosing us"))
 else:
-    print(st.write("please continue")
+    print(st.write("please continue"))
 
 
 
