@@ -43,7 +43,7 @@ st.sidebar.header('User Input Features')
 
 st.sidebar.multiselect('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
 
-st.sidebar.multiselect('Coach Preference',['1A','2A','3A','Sleeper']
+st.sidebar.multiselect('Coach Preference',['1A','2A','3A','Sleeper'])
 
 
 
