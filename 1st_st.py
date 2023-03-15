@@ -51,8 +51,9 @@ st.sidebar.header('User Input')
 st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
 if a=='yes':
-    print("Thanks for choosing us")
-st.write(a)
+    print(st.write("Thanks for choosing us"))
+else:
+    print(st.write("please continue")
 
 
 
