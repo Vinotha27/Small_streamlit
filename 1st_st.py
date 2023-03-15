@@ -50,7 +50,7 @@ st.sidebar.multiselect('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.0
 
 # Sidebar - Position selection
 unique_pos = ['1A','2A','3A','Sleeper']
-selected_pos = st.sidebar.multiselect('2A', unique_pos, unique_pos)
+selected_pos = st.sidebar.multiselect('Position', unique_pos, unique_pos)
 
 
 
