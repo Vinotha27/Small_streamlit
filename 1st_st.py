@@ -49,7 +49,7 @@ st.dataframe(merged, use_container_width=True)
 
 st.sidebar.header('User Input Features')
 
-st.multiselect('Departure Time',['Before 6 am', '6 am to 12 pm', '12 am to 6 pm','After 6 pm'])
+st.sidebar.multiselect('Departure Time',['Before 6 am', '6 am to 12 pm', '12 am to 6 pm','After 6 pm'])
 
 
 
