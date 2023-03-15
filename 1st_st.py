@@ -49,7 +49,8 @@ st.sidebar.header('User Input')
 
 #sidebar option
 st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
-st.sidebar.radio('Coach Preference', ['1A','2A','3A','Sleeper'])
+st.slider('Pick a Days', 'sunday','saturday')
+st.selectbox('Rounded Trip',['Yes','No'])
 
 
 
