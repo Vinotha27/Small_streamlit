@@ -24,8 +24,12 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.image("https://wallpapercave.com/wp/wp6222650.jpg")
+
+
 #Baloon Display
 st.balloons()
+
+
 #read file
 import pandas as pd
 url = 'https://raw.githubusercontent.com/Vinotha27/Small_streamlit/main/train_schedule.csv'
@@ -39,16 +43,11 @@ df1.dropna(inplace=True)
 merged = pd.merge(df,df1, how="inner", on=["Train_No"])
 st.dataframe(merged, use_container_width=True)
 
-st.sidebar.header('User Input Features')
+#sidebar message
+st.sidebar.header('User Input')
 
+#sidebar option
 st.sidebar.multiselect('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
-
-
-
-
-
-
-# Sidebar - Position selection
 unique_pos = ['1A','2A','3A','Sleeper']
 selected_pos = st.sidebar.multiselect('Coach Preference', unique_pos, unique_pos)
 
