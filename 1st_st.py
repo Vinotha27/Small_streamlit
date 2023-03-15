@@ -14,10 +14,10 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("OIP.jpg")
+        background: url("https://wallpapercave.com/wp/wp6222650.jpg")
     }
    .sidebar .sidebar-content {
-        background: url("OIP.jpg")
+        background: url("https://wallpapercave.com/wp/wp6222650.jpg")
     }
     </style>
     """,
