@@ -52,9 +52,7 @@ st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '
 st.sidebar.radio('Coach Preference', ['1A','2A','3A','Sleeper'])
 
 
-fig = px.bar(df, x="Product", y=["1A", "2A", "3A","Sleeper"], barmode='group', height=400)
-# st.dataframe(df) # if need to display dataframe
-st.plotly_chart(fig)
+
 
 
 
