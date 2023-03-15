@@ -54,7 +54,7 @@ st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '
 #sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
 if a is 'No':
-   st.caption('Thank You For Choosing Us🤗')
+   st.header('Thank You For Choosing Us🤗')
 else:
     st.header("Please continue for the further.....")
 
