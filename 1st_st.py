@@ -47,9 +47,8 @@ st.dataframe(merged, use_container_width=True)
 st.sidebar.header('User Input')
 
 #sidebar option
-st.sidebar.multiselect('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
-unique_pos = ['1A','2A','3A','Sleeper']
-selected_pos = st.sidebar.multiselect('Coach Preference', unique_pos, unique_pos)
+st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
+st.sidebar.radio('Coach Preference', ['1A','2A','3A','Sleeper'])
 
 
 
