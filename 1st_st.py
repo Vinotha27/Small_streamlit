@@ -60,4 +60,3 @@ selected_Train = st.sidebar.selectbox('Train_No', list(range(107,99908))
 
 
 
-
