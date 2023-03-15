@@ -49,14 +49,13 @@ st.sidebar.header('User Input')
 
 #sidebar option
 st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
-st.sidebar.selectbox('Rounded Trip',['Yes','No'])
-a='No'
-b="Thanks For Choosing Us"
-if a is 'No':
-    st.write(a)
-else:
-    st.write("Please continue for the further")
-
+#st.sidebar.selectbox('Rounded Trip',['Yes','No'])
+#a='No'
+##if a is 'No':
+   # st.write(a)
+#else:
+    #st.write("Please continue for the further")
+st.button('Click')
 
 
 
