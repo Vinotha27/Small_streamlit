@@ -23,17 +23,9 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-
 st.image("https://wallpapercave.com/wp/wp6222650.jpg")
-
-
-
-
 #Baloon Display
 st.balloons()
-
-
 #read file
 import pandas as pd
 url = 'https://raw.githubusercontent.com/Vinotha27/Small_streamlit/main/train_schedule.csv'
@@ -49,7 +41,7 @@ st.dataframe(merged, use_container_width=True)
 
 st.sidebar.header('User Input Features')
 
-st.sidebar.multiselect('Departure Time',['Before 6 am', '6 am to 12 pm', '12 am to 6 pm','After 6 pm'])
+st.sidebar.multiselect('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
 
 
 
