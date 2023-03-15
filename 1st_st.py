@@ -54,7 +54,7 @@ a='No'
 b="Thanks For Choosing Us"
 if a=='No':
     st.write(b)
- else:
+else:
     st.write("Please continue for the further")
 
 
