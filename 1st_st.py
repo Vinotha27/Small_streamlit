@@ -36,14 +36,15 @@ merged = pd.merge(df,df1, how="inner", on=["Train_No"])
 st.dataframe(merged, use_container_width=True)
 #sidebar message
 st.sidebar.header('User Input')
-#sidebar time option:
-st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
 #sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
 if a is 'No':
    st.header('Thank You For Choosing Us🤗')
 else:
     st.header("Please continue for the further.....")
+  
+#Demo page creation
+st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
 
 
 
