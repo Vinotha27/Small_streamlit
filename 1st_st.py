@@ -1,15 +1,10 @@
 #import Packages
 import streamlit as st
 import pandas as pd
-
-
-
 #Heading
 st.header("INDIAN RAILWAYS")
-
 #Caption
 st.caption("Safety | Security | Punctuality")
-
 #Background Image
 st.markdown(
     """
@@ -25,12 +20,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.image("https://wallpapercave.com/wp/wp6222650.jpg")
-
-
 #Baloon Display
 st.balloons()
-
-
 #read file
 import pandas as pd
 url = 'https://raw.githubusercontent.com/Vinotha27/Small_streamlit/main/train_schedule.csv'
@@ -43,14 +34,10 @@ df1.dropna(inplace=True)
 #st.dataframe(df1, use_container_width=True)
 merged = pd.merge(df,df1, how="inner", on=["Train_No"])
 st.dataframe(merged, use_container_width=True)
-
 #sidebar message
 st.sidebar.header('User Input')
-
-
+#sidebar time option:
 st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
-
-
 #sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
 if a is 'No':
