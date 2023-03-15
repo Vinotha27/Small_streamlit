@@ -47,13 +47,16 @@ st.dataframe(merged, use_container_width=True)
 #sidebar message
 st.sidebar.header('User Input')
 
-#sidebar option
+
 st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
+
+
+#sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
 if a is 'No':
-   st.write('Thank You For Choosing Us🤗')
+   st.caption('Thank You For Choosing Us🤗')
 else:
-    st.write("Please continue for the further.....")
+    st.header("Please continue for the further.....")
 
 
 
