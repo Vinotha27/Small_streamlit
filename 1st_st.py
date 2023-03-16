@@ -45,6 +45,19 @@ page_value  = st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to
 print(page_value)
 st.sidebar.radio()
 
+
+
+if page_value == 'Before 18.00.00':
+    st.header('Please select')
+
+    country_list = list(merged['Departure_time'].unique())
+    selectedCountry  = st.sidebar.selectbox('Select Country', country_list)
+
+    #new_df['Daily_Case'] = new_df[new_df['Country/Region'] == selectedCountry]['value'].apply(lambda x: int(dailyCaseClac(x)))
+
+    #new_df['Daily_Case'] = new_df['Daily_Case'].fillna(0).astype(int)
+    #df_selectedCountry = new_df[new_df['Country/Region'] == selectedCountry]
+
 #sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
 if a is 'No':
