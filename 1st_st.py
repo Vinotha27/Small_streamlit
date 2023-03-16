@@ -41,22 +41,12 @@ st.sidebar.header('User Input')
 st.sidebar.date_input('Travelling date')
 
 #Demo page creation
-page_value  = st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
-print(page_value)
-st.sidebar.radio()
+theme=st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
+if theme == 'Before 18.00.00':
+    st.write(Departure_Time >18.00.00)
 
 
 
-if page_value == 'Before 18.00.00':
-    st.header('Please select')
-
-    country_list = list(merged['Departure_time'].unique())
-    selectedCountry  = st.sidebar.selectbox('Select Country', country_list)
-
-    #new_df['Daily_Case'] = new_df[new_df['Country/Region'] == selectedCountry]['value'].apply(lambda x: int(dailyCaseClac(x)))
-
-    #new_df['Daily_Case'] = new_df['Daily_Case'].fillna(0).astype(int)
-    #df_selectedCountry = new_df[new_df['Country/Region'] == selectedCountry]
 
 #sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
