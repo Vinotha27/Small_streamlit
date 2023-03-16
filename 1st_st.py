@@ -41,16 +41,16 @@ st.sidebar.header('User Input')
 #Demo page creation
 #st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
 
-st.sidebar.selectbox('Select Days',list(df1['days'].unique()))
+st.sidebar.selectbox('Select Days',list(df1['days']))
 
 
 
 #sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
 if a is 'No':
-   st.header('Thanks For Choosing Us🤗')
+   st.header('Thank You For Choosing Us🤗')
 else:
-    st.header("Please continue for the further.....")
+    st.header("Please Proceed further Process.....")
 
 
 
