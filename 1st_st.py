@@ -39,9 +39,9 @@ st.dataframe(merged, use_container_width=True)
 st.sidebar.header('User Input')
 
 #Demo page creation
-#st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
+st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
+st.sidebar.date_input('Travelling date')
 
-st.sidebar.selectbox('Select Days',list(df1['days']))
 
 
 
