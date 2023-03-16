@@ -37,20 +37,12 @@ st.dataframe(merged, use_container_width=True)
 
 #sidebar message
 st.sidebar.header('User Input')
-
 st.sidebar.date_input('Travelling date')
-
 
 #Demo page creation
 url = 'https://contents.irctc.co.in/en/IRCTC_andriod_App.html'
-
 if st.sidebar.button('Open browser'):
     webbrowser.open_new_tab(url)
-
-
-
-
-
 
 #sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
