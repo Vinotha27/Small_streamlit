@@ -39,8 +39,8 @@ st.dataframe(merged, use_container_width=True)
 st.sidebar.header('User Input')
 
 #Demo page creation
-st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
-if Departure Time is 'Before 18.00.00':
+d=st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
+if d is 'Before 18.00.00':
     st.header('Departure_Time')
 
 st.sidebar.date_input('Travelling date')
