@@ -42,7 +42,10 @@ st.sidebar.date_input('Travelling date')
 
 
 #Demo page creation
-st.sidebar.button('Click')
+url = 'https://contents.irctc.co.in/en/IRCTC_andriod_App.html'
+
+if st.sidebar.button('Open browser'):
+    webbrowser.open_new_tab(url)
 
 
 
