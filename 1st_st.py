@@ -39,6 +39,9 @@ st.dataframe(merged, use_container_width=True)
 st.sidebar.header('User Input')
 st.sidebar.date_input('Travelling date')
 
+#
+st.sidebar.radio('Departure_time',
+
 
 #sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
