@@ -40,9 +40,9 @@ st.sidebar.header('User Input')
 
 st.sidebar.date_input('Travelling date')
 
-st.sidebar.time_input('Travel time')
 
 #Demo page creation
+st.sidebar.button('Click')
 
 
 
