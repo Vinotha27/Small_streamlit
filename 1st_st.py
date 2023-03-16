@@ -38,15 +38,12 @@ st.dataframe(merged, use_container_width=True)
 #sidebar message
 st.sidebar.header('User Input')
 
+st.sidebar.date_input('Travelling date')
+
 #Demo page creation
 page_value  = st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
 print(page_value)
 st.sidebar.radio()
-
-
-st.sidebar.date_input('Travelling date')
-
-
 
 #sidebar rounded trip  option
 a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
