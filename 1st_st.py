@@ -50,7 +50,7 @@ a=st.sidebar.selectbox('Rounded Trip',['Yes','No'])
 if a is 'No':
    st.header('Thank You For Choosing Us🤗')
 else:
-    st.header("Please Proceed further Process.....")
+    st.header("Please Proceed further .....")
 
 
 
