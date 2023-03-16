@@ -20,8 +20,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.image("https://wallpapercave.com/wp/wp6222650.jpg")
-#Baloon Display
-st.balloons()
+
+st.progress(10)
 #read file
 import pandas as pd
 url = 'https://raw.githubusercontent.com/Vinotha27/Small_streamlit/main/train_schedule.csv'
