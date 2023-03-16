@@ -41,7 +41,7 @@ st.sidebar.header('User Input')
 #Demo page creation
 d=st.sidebar.radio('Departure Time',['Before 18.00.00', '6.00.00  to 13.00.00 ', '13.00.00 to 18.00.00','After 18.00.00'])
 if d is 'Before 18.00.00':
-    st.header('Departure_Time')
+    st.header(Departure_Time)
 
 st.sidebar.date_input('Travelling date')
 
