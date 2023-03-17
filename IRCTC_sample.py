@@ -51,17 +51,10 @@ else:
     
     
 st.sidebar.text_input('Email address')
+with st.spinner('Wait for it...'):   
 
 
-    if (df['Station_Code']):
-        return st.header(df[Station_Name])
-    #elif (df['trigger2'] <= df['score'] < df['trigger3']) and (df['height'] < 8):
-        #return df['height']*3
-   # elif (df['trigger3'] <= df['score']) and (df['height'] < 8):
-        #return df['height']*4
-    #elif (df['height'] > 8):
-        #return np.nan
-
+   
 
 
 
