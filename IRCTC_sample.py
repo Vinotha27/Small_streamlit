@@ -51,7 +51,10 @@ else:
     
     
 st.sidebar.text_input('Email address')
-st.spinner('Wait for it...') 
+import numpy as np
+if st.button('Click'): 
+     rand = np.random.standard_normal()
+     st.write(str(rand))
 
 
    
