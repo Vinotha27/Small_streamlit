@@ -52,7 +52,14 @@ else:
     
 st.sidebar.text_input('Email address')
 
-st.sidebar.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
+rye=st.sidebar.select_slider('Rate your Experience', ['Bad', 'Good', 'Excellent'])
+if rye is "Bad":
+    print("Iam sorry to hear about your bad experience with us.We would love to have you back in, on us")
+elif rye is "Good":
+    print("Thank you for your feedback")
+else:
+    Print("Thanks for your valuable Feedback")
+  
 
 
 
