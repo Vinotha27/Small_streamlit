@@ -52,6 +52,8 @@ else:
     
 st.sidebar.text_input('Email address')
 
+st.sidebar.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
+
 
 
 
