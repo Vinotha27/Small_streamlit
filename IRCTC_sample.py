@@ -54,11 +54,11 @@ st.sidebar.text_input('Email address')
 
 rye=st.sidebar.select_slider('Rate your Experience', ['Bad', 'Good', 'Excellent'])
 if rye is 'Bad':
-    print("Iam sorry to hear about your bad experience with us.We would love to have you back in, on us")
+    st.write("Iam sorry to hear about your bad experience with us.We would love to have you back in, on us")
 elif rye is 'Good':
-    print("Thank you for your feedback")
+    st.write("Thank you for your feedback")
 else:
-    Print("Thanks for your valuable Feedback")
+    st.write("Thanks for your valuable Feedback")
   
 
 
