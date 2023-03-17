@@ -52,7 +52,7 @@ else:
     
 st.sidebar.text_input('Email address')
 st.sidebar.markdown("----", unsafe_allow_html=True)
-columns = st.columns((2, 1, 2))
+columns = st.sidebar.columns((2, 1, 2))
 button_pressed = columns[1].button('Click Me!')
 st.sidebar.markdown("----", unsafe_allow_html=True)
 
