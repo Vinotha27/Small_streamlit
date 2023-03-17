@@ -52,6 +52,10 @@ else:
     
 st.sidebar.text_input('Email address')
 
+sst=st.sidebar.selectbox('select one'[Station_Code])
+if sst is Station_Code:
+    st.header(Station_name)
+
 
 
    
