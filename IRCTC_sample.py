@@ -51,10 +51,10 @@ else:
     
     
 st.sidebar.text_input('Email address')
-st.markdown("----", unsafe_allow_html=True)
+st.sidebar.markdown("----", unsafe_allow_html=True)
 columns = st.columns((2, 1, 2))
 button_pressed = columns[1].button('Click Me!')
-st.markdown("----", unsafe_allow_html=True)
+st.sidebar.markdown("----", unsafe_allow_html=True)
 
 
    
