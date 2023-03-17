@@ -51,7 +51,7 @@ else:
     
     
 st.sidebar.text_input('Email address')
-st.spinner('Wait for it...'):   
+st.spinner('Wait for it...') 
 
 
    
