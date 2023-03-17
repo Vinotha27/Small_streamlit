@@ -34,7 +34,7 @@ df1.dropna(inplace=True)
 #st.dataframe(df1, use_container_width=True)
 merged = pd.merge(df,df1, how="inner", on=["Train_No"])
 merged1=merged.dropna()
-st.dataframe(merged, use_container_width=True)
+st.dataframe(merged1, use_container_width=True)
 
 
 #sidebar message
@@ -51,6 +51,16 @@ else:
     
     
 st.sidebar.text_input('Email address')
+
+
+    if (merged1['Station_Code']):
+        return merged1[Station_Name]
+    #elif (df['trigger2'] <= df['score'] < df['trigger3']) and (df['height'] < 8):
+        #return df['height']*3
+   # elif (df['trigger3'] <= df['score']) and (df['height'] < 8):
+        #return df['height']*4
+    #elif (df['height'] > 8):
+        #return np.nan
 
 
 
