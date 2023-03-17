@@ -53,8 +53,8 @@ else:
 st.sidebar.text_input('Email address')
 
 
-    if (merged1['Station_Code']):
-        return merged1[Station_Name]
+    if (df['Station_Code']):
+        return st.header(df[Station_Name])
     #elif (df['trigger2'] <= df['score'] < df['trigger3']) and (df['height'] < 8):
         #return df['height']*3
    # elif (df['trigger3'] <= df['score']) and (df['height'] < 8):
