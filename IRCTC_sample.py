@@ -47,4 +47,10 @@ if a is 'No':
    st.header('Thank You For Choosing Us🤗')
 else:
     st.header("Please Proceed further .....")
+    
+    
+    
+st.sidebar.text_input('Email address')
+
+
 
