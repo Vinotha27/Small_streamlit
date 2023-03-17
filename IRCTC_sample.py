@@ -33,7 +33,9 @@ df1.dropna(inplace=True)
 #st.dataframe(df, use_container_width=True)
 #st.dataframe(df1, use_container_width=True)
 merged = pd.merge(df,df1, how="inner", on=["Train_No"])
+merged1=merged.dropna()
 st.dataframe(merged, use_container_width=True)
+
 
 #sidebar message
 st.sidebar.header('User Input')
